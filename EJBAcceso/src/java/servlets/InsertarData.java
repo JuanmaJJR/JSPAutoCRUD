@@ -61,6 +61,7 @@ public class InsertarData extends HttpServlet {
             out.println("<title>Servlet GetData</title>");            
             out.println("</head>");
             out.println("<body>");
+            out.println("<h1>Insertado correcto</h1>");
             out.println(" <a href=\"index.jsp\" class=\"button\">Volver al principio</a>");
         }
     }

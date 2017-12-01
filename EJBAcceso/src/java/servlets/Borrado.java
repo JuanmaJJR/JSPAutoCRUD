@@ -48,7 +48,8 @@ public class Borrado extends HttpServlet {
             out.println("<title>Servlet Borrado</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Borrado correcto colegui</h1>");
+            out.println("<h1>Borrado correcto</h1>");
+            out.println(" <a href=\"index.jsp\" class=\"button\">Volver al principio</a>");
             out.println("</body>");
             out.println("</html>");
         }

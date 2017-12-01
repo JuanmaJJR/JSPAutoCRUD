@@ -47,6 +47,7 @@ public class DeleteData extends HttpServlet {
             out.println("<title>Servlet DeleteData</title>");            
             out.println("</head>");
             out.println("<body>");
+            out.println("<h1>SELECCIONA JUGADOR A BORRAR</h1>");
             out.println("<form action=\"Borrado\" method=\"POST\">");
             out.println("<select name=\"jugadores\">");
             for(int i = 0; i < l.size(); i++ ){
